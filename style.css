@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap&family=Mali");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  background-color: #3d3b3b;
+  height: auto;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.container h1 {
+  color: red;
+  font-size: 4em;
+  font-family: "Shadows Into Light";
+}
+
+.container p {
+  color: whitesmoke;
+  font-family: "Mali";
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container .phutos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  height: auto;
+}
+
+.container .phutos img.twohearts {
+  height: 600px;
+}
+
+.container .phutos img.spotify {
+  height: 90px;
+  width: 90px;
+}
+
+@media (max-width: 500px) {
+  .container h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    height: 100vh;
+  }
+  .phutos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+    background-color: #3d3b3b;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+/*# sourceMappingURL=style.css.map */
